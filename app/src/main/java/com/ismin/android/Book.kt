@@ -1,4 +1,4 @@
 package com.ismin.android
 
 
-data class Book(val title: String, val author: String, val date: String )
+data class Book(val title: String, val author: String, val date: String ) : java.io.Serializable

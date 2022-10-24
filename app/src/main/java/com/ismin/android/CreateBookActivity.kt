@@ -8,6 +8,8 @@ import android.view.View
 import android.widget.Button
 import com.google.android.material.textfield.TextInputEditText
 
+// Define a string that will be used to identify the extra
+val EXTRA_KEY = "extra-key"
 class CreateBookActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,17 +30,12 @@ class CreateBookActivity : AppCompatActivity() {
         }
     }
 
-    // Define a string that will be used to identify the extra
-    val EXTRA_KEY = "extra-key"
+
 
     fun createBook(view: View) {
         // Do things
     }
 
 
-
-}
-
-private fun Intent.putExtra(extraKey: String, book: Book) {
 
 }
